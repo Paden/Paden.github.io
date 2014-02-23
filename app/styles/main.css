@@ -13,6 +13,11 @@
 	margin-right: 0.5em;
 }
 
+.sm-margin-left
+{
+	margin-left: 0.5em;
+}
+
 .sm-margin-bottom
 {
 	margin-bottom: 0.5em;
@@ -28,4 +33,11 @@
 	display: inline-block;
 	vertical-align: middle;
 	border: 20px solid rgba(0, 0, 0, 0.1);
+}
+
+.hr
+{
+	height:8px;
+	width:100%;
+	background-color: #aaa;
 }
