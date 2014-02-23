@@ -13,14 +13,8 @@
 }
 
 .avatar {
--webkit-border-radius: 50%;
--moz-border-radius: 50%;
--ms-border-radius: 50%;
--o-border-radius: 50%;
-border-radius: 50%;
-display: -moz-inline-stack;
-display: inline-block;
-vertical-align: middle;
-zoom: 1;
-border: 20px solid rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	border: 20px solid rgba(0, 0, 0, 0.1);
 }
