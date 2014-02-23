@@ -41,9 +41,9 @@
                     <!-- navigation links -->
                     <div class="collapse navbar-collapse main-nav-collapse">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="#about-me">ABOUT ME</a></li>
+                            <li class="active"><a href="#">ABOUT ME</a></li>
+                            <li class=""><a href="#projects">NOTABLE PROJECTS</a></li>
                             <li class=""><a href="#resume">RESUME</a></li>
-                            <li class=""><a href="#projects">PROJECTS</a></li>
                         </ul>
                     </div>
                 </div>
@@ -61,19 +61,76 @@
                         <div class="col-md-6 right">
                             <h1 class="hide">Paden Portillo</h1>
                             <h1 class="heading">Hello,<br> I'm Paden</h1>
-                            <p>A software engineer in love with web development. What to know more about me?</p>
-                            <a href="#about-me" class="btn btn-default btn-lg sm-margin-right">READ MORE</a>
+                            <p>
+                                A software engineer in love with web development.
+                                I also enjoy CrossFit, Cello'ing, and being concise.
+                            </p>
+                            <a href="#projects" class="btn btn-default btn-lg sm-margin-right">NOTABLE PROJECTS</a>
                             <a href="#" class="btn btn-primary btn-lg">DOWNLOAD MY RESUME</a>
                         </div>
                     </div>
                 </div>
             </header>
+
+            <div id="projects" style="background:url('images/wood_pattern.png'); padding-bottom:30px;">
+                <div class="container">
+                    <h2 >Notable Projects</h2>
+                    <div class="row lg-margin-bottom">
+                        <div class="col-md-6 sm-margin-bottom">
+                            <div class="github-widget" data-repo="Paden/eastApp"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <strong class="h4">
+                            An app submission for East Austin Studio Tour's
+                            <a href="http://hackingeast.challengepost.com/" target="_blank">Hackathon</a>
+                            </strong>
+                            <br>
+                            <small>
+                                Built with: Yeoman's angular-generator, AngularStrap, Bootstrap, and Google Maps
+                            </small>
+                        </div>
+                    </div>
+                    <div class="row lg-margin-bottom">
+                        <div class="col-md-6 sm-margin-bottom">
+                            <div class="github-widget" data-repo="Paden/Paden.github.io"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <strong class="h4">
+                                The project that made this very site!
+                            </strong>
+                            <em>[cue Inception sound]</em>
+                            <br>
+                            <small>
+                                Built with: Yeoman's angular-webapp, GruntJS, Bootstrap, and Bower
+                            </small>
+                        </div>
+                    </div>
+                    <div class="row lg-margin-bottom">
+                        <div class="col-md-6 sm-margin-bottom">
+                            <div class="github-widget" data-repo="Paden/WebMyService"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <strong class="h4">
+                                <em>Master's Project at the University of Texas at El Paso.</em>
+                                <br>
+                                A RESTful, json-rpc v2.0 compliant web service given database schema.
+                            </strong>
+                            <br>
+                            <small>
+                                Built with: nodeJS, mongoDB, and express
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="bower_components/jquery/jquery.js"></script>
+        <script src="bower_components/GitHub-jQuery-Repo-Widget/jquery.githubRepoWidget.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 

@@ -2,7 +2,8 @@
   "name": "paden-github-io",
   "private": true,
   "dependencies": {
-    "jquery": "~1.10.2"
+    "jquery": "~1.10.2",
+    "GitHub-jQuery-Repo-Widget": "git@github.com:JoelSutherland/GitHub-jQuery-Repo-Widget.git"
   },
   "devDependencies": {}
 }

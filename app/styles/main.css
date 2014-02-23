@@ -1,6 +1,7 @@
 .header
 {
 	margin-top: 65px; /*navbar height*/
+	margin-bottom: 0px;
 }
 
 .header .right {
@@ -10,6 +11,16 @@
 .sm-margin-right
 {
 	margin-right: 0.5em;
+}
+
+.sm-margin-bottom
+{
+	margin-bottom: 0.5em;
+}
+
+.lg-margin-bottom
+{
+	margin-bottom: 2.0em;
 }
 
 .avatar {

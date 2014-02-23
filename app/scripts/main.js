@@ -1,1 +1,4 @@
-console.log('\'Allo \'Allo!');
+(function()
+{
+	//Code in here, dummy
+})();
