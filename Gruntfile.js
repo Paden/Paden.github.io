@@ -330,7 +330,9 @@ module.exports = function (grunt) {
             ],
             dist: [
                 'compass',
-                'copy:styles'
+                'copy:styles',
+                'imagemin',
+                'svgmin'
             ]
         }
     });

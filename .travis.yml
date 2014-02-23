@@ -14,7 +14,8 @@ env:
   - secure: Dln60P2A9NYY6OCpoWJ7ppXlOLhd79wkt8/2suFaJi1iiBoJmw3LO9AhjZuJDhcUn0ZJW1xtULIU04dmzH1McNrNV8yNnBpbuCkAF2xFOIv6KVtp/3ayhaJQYWbeH9nKhwAPHq0GBKuQ9iRCsq3VKrszRBfLc3pJoJt2DgM03G4=
 before_script:
 - gem update --system
-- gem install compass sass
+- gem install compass --version 3.2.13
+- gem install sass
 - npm install -g grunt-cli bower
 script:
 - bower install
