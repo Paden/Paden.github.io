@@ -322,12 +322,14 @@ module.exports = function (grunt) {
         // Run some tasks in parallel to speed up build process
         concurrent: {
             server: [
+                'compass:server',
                 'copy:styles'
             ],
             test: [
                 'copy:styles'
             ],
             dist: [
+                'compass',
                 'copy:styles',
                 'imagemin',
                 'svgmin'
@@ -377,12 +379,14 @@ module.exports = function (grunt) {
         if (target !== 'watch') {
             grunt.task.run([
                 'clean:server',
+                'autoprefixer',
                 'concurrent:test'
             ]);
         }
 
         grunt.task.run([
-            'connect:test'
+            'connect:test',
+            'mocha'
         ]);
     });
 
@@ -390,6 +394,7 @@ module.exports = function (grunt) {
         'clean:dist',
         'useminPrepare',
         'concurrent:dist',
+        'autoprefixer',
         'concat',
         'cssmin',
         'uglify',
