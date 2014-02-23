@@ -361,8 +361,7 @@ module.exports = function (grunt) {
         if (target !== 'watch') {
             grunt.task.run([
                 'clean:server',
-                'concurrent:test',
-                'autoprefixer',
+                'concurrent:test'
             ]);
         }
 
@@ -375,7 +374,6 @@ module.exports = function (grunt) {
         'clean:dist',
         'useminPrepare',
         'concurrent:dist',
-        'autoprefixer',
         'concat',
         'cssmin',
         'uglify',
