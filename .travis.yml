@@ -8,7 +8,6 @@ branches:
   - development
 env:
   global:
-  - secure: r7M6tWPkjmXLUgXwsPODEON5JXf1ENfSGNEWH9L1vaVXqjyKd5PzTLC3ea0IslFoRpfUM8SBxc5EWrSHv3gNrckedfCK2q3ewPdB9/LmgDvsDOM558h4ZeTNxJBvvyA2o/JOUnwUIFFgiSUitJcySiA9dsg5UD2YcqPuKHvS6fM=
   - GH_OWNER: Paden
   - GH_PROJECT_NAME: Paden.github.io
   - secure: Dln60P2A9NYY6OCpoWJ7ppXlOLhd79wkt8/2suFaJi1iiBoJmw3LO9AhjZuJDhcUn0ZJW1xtULIU04dmzH1McNrNV8yNnBpbuCkAF2xFOIv6KVtp/3ayhaJQYWbeH9nKhwAPHq0GBKuQ9iRCsq3VKrszRBfLc3pJoJt2DgM03G4=
