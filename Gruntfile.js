@@ -367,7 +367,8 @@ module.exports = function (grunt) {
         }
 
         grunt.task.run([
-            'connect:test'
+            'connect:test',
+            'mocha'
         ]);
     });
 
