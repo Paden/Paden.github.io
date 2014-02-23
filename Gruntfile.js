@@ -399,6 +399,11 @@ module.exports = function (grunt) {
         'htmlmin'
     ]);
 
+    grunt.registerTask('push_gh', [
+        'build',
+        'buildcontrol:pages';
+    ]);
+
     grunt.registerTask('default', [
         'newer:jshint',
         'test',
