@@ -406,7 +406,8 @@ module.exports = function (grunt) {
 
     grunt.registerTask('push_gh', [
         'build',
-        'buildcontrol:pages'
+        'buildcontrol:pages',
+        'clean:dist'
     ]);
 
     grunt.registerTask('default', [
