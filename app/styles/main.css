@@ -47,12 +47,7 @@
 	background-color: #bf5a16;
 }
 
-.sos-bg
+.light-bg
 {
-	background: rgba(243, 240, 240, 1) url('/images/sos.png')
-}
-
-.wd-bg
-{
-	background: rgba(243, 240, 240, 1) url('/images/whitediamond.png')
+	background-color: rgba(243, 240, 240, 1)
 }
