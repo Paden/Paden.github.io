@@ -1,16 +1,11 @@
-.header
-{
-	margin-top: 65px; /*navbar height*/
-	margin-bottom: 0px;
-}
-
-.header .right {
-  padding-top: 3em;
-}
-
 .sm-margin-right
 {
 	margin-right: 0.5em;
+}
+
+.text-black
+{
+	color: black;
 }
 
 .sm-margin-left
@@ -28,6 +23,11 @@
 	margin-bottom: 2.0em;
 }
 
+.no-margin-bottom
+{
+	margin-bottom: 0;
+}
+
 .avatar {
 	border-radius: 50%;
 	display: inline-block;
@@ -39,5 +39,5 @@
 {
 	height:8px;
 	width:100%;
-	background-color: green;
+	background-color: #bf5a16;
 }
