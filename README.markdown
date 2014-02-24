@@ -1,1 +1,0 @@
-[![Build Status](https://travis-ci.org/Paden/Paden.github.io.png?branch=master)](https://travis-ci.org/Paden/Paden.github.io)
