@@ -8,6 +8,11 @@
 	color: black;
 }
 
+.text-white
+{
+	color: white;
+}
+
 .sm-margin-left
 {
 	margin-left: 0.5em;
@@ -18,9 +23,19 @@
 	margin-bottom: 0.5em;
 }
 
+.margin-bottom
+{
+	margin-bottom: 1.0em;
+}
+
 .sm-margin-top
 {
 	margin-top:0.5em;
+}
+
+.margin-top
+{
+	margin-top:1.0em;
 }
 
 .lg-margin-bottom
