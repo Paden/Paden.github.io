@@ -4,7 +4,8 @@
   "dependencies": {
     "jquery": "~1.10.2",
     "GitHub-jQuery-Repo-Widget": "git@github.com:JoelSutherland/GitHub-jQuery-Repo-Widget.git",
-    "bootstrap": "~3.1.1"
+    "bootstrap": "~3.1.1",
+    "font-awesome": "~4.0.3"
   },
   "devDependencies": {}
 }
