@@ -41,3 +41,8 @@
 	width:100%;
 	background-color: #bf5a16;
 }
+
+.sos-bg
+{
+	background: rgba(243, 240, 240, 1) url('images/sos.png')
+}
