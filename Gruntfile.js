@@ -170,7 +170,7 @@ module.exports = function (grunt) {
         // Add vendor prefixed styles
         autoprefixer: {
             options: {
-                browsers: ['last 1 version']
+                browsers: ['last 3 version']
             },
             dist: {
                 files: [{
@@ -353,6 +353,26 @@ module.exports = function (grunt) {
                     branch: 'master'
                 }
             }
+        },
+        uncss:
+        {
+            dist:
+            {
+                files:
+                {
+                  'dist/css/tidy.css': ['app/index.html']
+                }
+            }
+        },
+        processhtml:
+        {
+            dist:
+            {
+                files:
+                {
+                    'dist/index.html': ['app/index.html']
+                }
+            }
         }
     });
 
@@ -396,6 +416,7 @@ module.exports = function (grunt) {
         'useminPrepare',
         'concurrent:dist',
         'autoprefixer',
+        'uncss:dist',
         'concat',
         'cssmin',
         'uglify',

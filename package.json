@@ -29,7 +29,8 @@
     "grunt-cli": "~0.1.13",
     "bower": "~1.2.8",
     "yo": "~1.1.2",
-    "grunt-build-control": "~0.1.2"
+    "grunt-build-control": "~0.1.2",
+    "grunt-uncss": "~0.2.0"
   },
   "engines": {
     "node": ">=0.10.25"
